@@ -34,6 +34,15 @@ button.bg-primary:hover {
  margin-top:50px; 
 }
 
+.girlPhoto {
+   max-width:50%;
+}
+
+.treePhoto {
+  max-height:720px;
+  max-width:50%;
+}
+
 /* Portfolio */
 
 #portfolio h2, #about h2 {
@@ -55,6 +64,16 @@ footer ul {
 /* Transition Class */
 .grow { transition: all .2s ease-in-out !important; }
 .grow:hover { transform: scale(1.1); }
+
+@media (max-width:768px){
+  .treePhoto {
+    max-width:100%;
+  }
+  
+  .girlPhoto {
+    max-width:100%;
+  }
+}
 
 @media (max-width:769px) {
   .titleIMG { 
